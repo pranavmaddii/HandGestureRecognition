@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE-specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.pyc
+.spyderproject
+.spyproject
+.idea/
+
+# Other
+.DS_Store
+Thumbs.db

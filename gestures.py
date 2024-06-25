@@ -66,9 +66,9 @@ while cap.isOpened():
                 gesture = "4"
             elif thumb_extended and index_extended and middle_extended and ring_extended and pinky_extended:
                 gesture = "5"
-            elif (index_extended and not middle_extended and not ring_extended and not pinky_extended and
-                  hand_landmarks.landmark[0].x < hand_landmarks.landmark[5].x):
-                gesture = "5"
+            # elif (index_extended and not middle_extended and not ring_extended and not pinky_extended and
+            #       hand_landmarks.landmark[0].x < hand_landmarks.landmark[5].x):
+            #     gesture = "5"
             elif thumb_extended and not index_extended and not middle_extended and not ring_extended and not pinky_extended:
                 gesture = "Thumbs Up!"
             elif index_extended and not middle_extended and not ring_extended and pinky_extended:
